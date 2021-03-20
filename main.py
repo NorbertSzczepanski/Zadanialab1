@@ -61,3 +61,30 @@ print(indeks[41])
 
 print('Zadanie7')
 print(indeks.split())
+
+
+print('Zadanie8')
+stringowe = 'cześć'
+floatowe = 5.4
+szesnastkowe = 0x65
+print('%s' % stringowe)
+print('%.2f' % floatowe)
+print('%x' % szesnastkowe)
+
+
+print('Zadanie9')
+sportlist = ['siatkówka', 'koszykówka', 'piłka ręczna', 'piłka nożna']
+print(sportlist)
+sportlist.reverse()
+print(sportlist)
+sportlist.append('tenis ziemny')
+sportlist.append('hokej')
+print(sportlist)
+
+
+print('Zadanie10')
+skroty = {'itd.': 'i tak dalej', 'itp.': 'i tym podobne', 'tzw.': 'tak zwany',
+          'tzn.': 'to znaczy', 'dr': 'doktor', 'cdn.': 'ciąg dalszy nastąpi',
+          'tj.': 'to jest'}
+print(skroty)
+print('cdn.: ' + skroty['cdn.'])
